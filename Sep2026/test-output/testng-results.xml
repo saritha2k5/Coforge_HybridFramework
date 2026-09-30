@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-29T12:31:59 IST" name="Default suite" finished-at="2026-09-29T12:32:44 IST" duration-ms="45357">
+  <suite started-at="2026-09-30T10:45:10 IST" name="Default suite" finished-at="2026-09-30T10:45:51 IST" duration-ms="41343">
     <groups>
     </groups>
-    <test started-at="2026-09-29T12:31:59 IST" name="Default test" finished-at="2026-09-29T12:32:44 IST" duration-ms="45357">
+    <test started-at="2026-09-30T10:45:10 IST" name="Default test" finished-at="2026-09-30T10:45:51 IST" duration-ms="41343">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginTest@1d9b7cce]" started-at="2026-09-29T12:32:00 IST" name="beforeMethod" finished-at="2026-09-29T12:32:28 IST" duration-ms="28499" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginTest@306e95ec]" started-at="2026-09-30T10:45:11 IST" name="beforeMethod" finished-at="2026-09-30T10:45:20 IST" duration-ms="9402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="orangeHRMlogintest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@1d9b7cce]" started-at="2026-09-29T12:32:28 IST" name="orangeHRMlogintest" data-provider="logindata" finished-at="2026-09-29T12:32:30 IST" duration-ms="1881" status="FAIL">
+        <test-method signature="orangeHRMlogintest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@306e95ec]" started-at="2026-09-30T10:45:20 IST" name="orangeHRMlogintest" data-provider="logindata" finished-at="2026-09-30T10:45:33 IST" duration-ms="12477" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -24,30 +24,28 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression ///h6[text()='Dashboard'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///h6[text()='Dashboard']' is not a valid XPath expression.
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h6[text()='Dashboard']"}
   (Session info: MicrosoftEdge=154.0.4258.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9c485f25a40d33eb9a2eaa90b0819447, findElement {value=///h6[text()='Dashboard'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 124, ms:edgeOptions: {debuggerAddress: localhost:64168}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64168/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c485f25a40d33eb9a2eaa90b0819447]]>
+Command: [da73e23fd36e2bcf48fffed6d560e58a, findElement {value=//h6[text()='Dashboard'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 46476, ms:edgeOptions: {debuggerAddress: localhost:62931}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da73e23fd36e2bcf48fffed6d560e58a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///h6[text()='Dashboard'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///h6[text()='Dashboard']' is not a valid XPath expression.
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[text()='Dashboard']"}
   (Session info: MicrosoftEdge=154.0.4258.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9c485f25a40d33eb9a2eaa90b0819447, findElement {value=///h6[text()='Dashboard'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 124, ms:edgeOptions: {debuggerAddress: localhost:64168}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64168/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c485f25a40d33eb9a2eaa90b0819447
+Command: [da73e23fd36e2bcf48fffed6d560e58a, findElement {value=//h6[text()='Dashboard'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 46476, ms:edgeOptions: {debuggerAddress: localhost:62931}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da73e23fd36e2bcf48fffed6d560e58a
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -60,9 +58,9 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 at pages.Login_POM.isdashboarddisplayed(Login_POM.java:38)
-at tests.LoginTest.orangeHRMlogintest(LoginTest.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at tests.LoginTest.orangeHRMlogintest(LoginTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -71,7 +69,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -89,19 +87,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orangeHRMlogintest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginTest@1d9b7cce]" started-at="2026-09-29T12:32:30 IST" name="afterMethod" finished-at="2026-09-29T12:32:31 IST" duration-ms="591" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginTest@306e95ec]" started-at="2026-09-30T10:45:33 IST" name="afterMethod" finished-at="2026-09-30T10:45:34 IST" duration-ms="996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginTest@1d9b7cce]" started-at="2026-09-29T12:32:31 IST" name="beforeMethod" finished-at="2026-09-29T12:32:42 IST" duration-ms="11052" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginTest@306e95ec]" started-at="2026-09-30T10:45:34 IST" name="beforeMethod" finished-at="2026-09-30T10:45:39 IST" duration-ms="4949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="orangeHRMlogintest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@1d9b7cce]" started-at="2026-09-29T12:32:42 IST" name="orangeHRMlogintest" data-provider="logindata" finished-at="2026-09-29T12:32:44 IST" duration-ms="1980" status="FAIL">
+        <test-method signature="orangeHRMlogintest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@306e95ec]" started-at="2026-09-30T10:45:39 IST" name="orangeHRMlogintest" data-provider="logindata" finished-at="2026-09-30T10:45:51 IST" duration-ms="11587" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -114,30 +112,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression ///h6[text()='Dashboard'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///h6[text()='Dashboard']' is not a valid XPath expression.
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h6[text()='Dashboard']"}
   (Session info: MicrosoftEdge=154.0.4258.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5bc72c7eee2aa3e1fd7c2505e6e22f30, findElement {value=///h6[text()='Dashboard'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 72884, ms:edgeOptions: {debuggerAddress: localhost:64223}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64223/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30]]>
+Command: [8a803c9c9dc0e7f75d11ce722c63bb61, findElement {value=//h6[text()='Dashboard'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 104920, ms:edgeOptions: {debuggerAddress: localhost:62993}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62993/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a803c9c9dc0e7f75d11ce722c63bb61]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///h6[text()='Dashboard'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///h6[text()='Dashboard']' is not a valid XPath expression.
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[text()='Dashboard']"}
   (Session info: MicrosoftEdge=154.0.4258.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5bc72c7eee2aa3e1fd7c2505e6e22f30, findElement {value=///h6[text()='Dashboard'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 72884, ms:edgeOptions: {debuggerAddress: localhost:64223}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64223/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
+Command: [8a803c9c9dc0e7f75d11ce722c63bb61, findElement {value=//h6[text()='Dashboard'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 104920, ms:edgeOptions: {debuggerAddress: localhost:62993}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62993/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a803c9c9dc0e7f75d11ce722c63bb61
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -150,9 +146,9 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 at pages.Login_POM.isdashboarddisplayed(Login_POM.java:38)
-at tests.LoginTest.orangeHRMlogintest(LoginTest.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at tests.LoginTest.orangeHRMlogintest(LoginTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -161,7 +157,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -179,11 +175,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orangeHRMlogintest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginTest@1d9b7cce]" started-at="2026-09-29T12:32:44 IST" name="afterMethod" finished-at="2026-09-29T12:32:44 IST" duration-ms="533" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginTest@306e95ec]" started-at="2026-09-30T10:45:51 IST" name="afterMethod" finished-at="2026-09-30T10:45:51 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

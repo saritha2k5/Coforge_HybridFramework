@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 29 12:31:59 IST 2026</td>
+<td>Started on:</td><td>Wed Sep 30 10:45:10 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>45 seconds (45357 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41343 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.LoginTest.orangeHRMlogintest()'><b>orangeHRMlogintest</b><br>Test class: tests.LoginTest<br>Parameters: hema, welcome</td>
-<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///h6[text()=&apos;Dashboard&apos;] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;///h6[text()=&apos;Dashboard&apos;]&apos; is not a valid XPath expression.
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[text()=&apos;Dashboard&apos;]&quot;}
   (Session info: MicrosoftEdge=154.0.4258.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9c485f25a40d33eb9a2eaa90b0819447, findElement {value=///h6[text()=&apos;Dashboard&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 124, ms:edgeOptions: {debuggerAddress: localhost:64168}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64168/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c485f25a40d33eb9a2eaa90b0819447
+Command: [da73e23fd36e2bcf48fffed6d560e58a, findElement {value=//h6[text()=&apos;Dashboard&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 46476, ms:edgeOptions: {debuggerAddress: localhost:62931}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da73e23fd36e2bcf48fffed6d560e58a
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -98,9 +97,9 @@ Session ID: 9c485f25a40d33eb9a2eaa90b0819447
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.Login_POM.isdashboarddisplayed(Login_POM.java:38)
-	at tests.LoginTest.orangeHRMlogintest(LoginTest.java:45)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at tests.LoginTest.orangeHRMlogintest(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -109,7 +108,7 @@ Session ID: 9c485f25a40d33eb9a2eaa90b0819447
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -125,17 +124,16 @@ Session ID: 9c485f25a40d33eb9a2eaa90b0819447
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1135555866", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1135555866'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///h6[text()=&apos;Dashboard&apos;] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;///h6[text()=&apos;Dashboard&apos;]&apos; is not a valid XPath expression.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1850055104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1850055104'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[text()=&apos;Dashboard&apos;]&quot;}
   (Session info: MicrosoftEdge=154.0.4258.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9c485f25a40d33eb9a2eaa90b0819447, findElement {value=///h6[text()=&apos;Dashboard&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 124, ms:edgeOptions: {debuggerAddress: localhost:64168}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64168/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c485f25a40d33eb9a2eaa90b0819447
+Command: [da73e23fd36e2bcf48fffed6d560e58a, findElement {value=//h6[text()=&apos;Dashboard&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 46476, ms:edgeOptions: {debuggerAddress: localhost:62931}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da73e23fd36e2bcf48fffed6d560e58a
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -148,9 +146,9 @@ Session ID: 9c485f25a40d33eb9a2eaa90b0819447
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.Login_POM.isdashboarddisplayed(Login_POM.java:38)
-	at tests.LoginTest.orangeHRMlogintest(LoginTest.java:45)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at tests.LoginTest.orangeHRMlogintest(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -159,7 +157,7 @@ Session ID: 9c485f25a40d33eb9a2eaa90b0819447
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -176,20 +174,19 @@ Session ID: 9c485f25a40d33eb9a2eaa90b0819447
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>tests.LoginTest@1d9b7cce</td></tr>
+<td>12</td>
+<td>tests.LoginTest@306e95ec</td></tr>
 <tr>
 <td title='tests.LoginTest.orangeHRMlogintest()'><b>orangeHRMlogintest</b><br>Test class: tests.LoginTest<br>Parameters: hjohn, alphabeta</td>
-<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///h6[text()=&apos;Dashboard&apos;] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;///h6[text()=&apos;Dashboard&apos;]&apos; is not a valid XPath expression.
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[text()=&apos;Dashboard&apos;]&quot;}
   (Session info: MicrosoftEdge=154.0.4258.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5bc72c7eee2aa3e1fd7c2505e6e22f30, findElement {value=///h6[text()=&apos;Dashboard&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 72884, ms:edgeOptions: {debuggerAddress: localhost:64223}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64223/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
+Command: [8a803c9c9dc0e7f75d11ce722c63bb61, findElement {value=//h6[text()=&apos;Dashboard&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 104920, ms:edgeOptions: {debuggerAddress: localhost:62993}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62993/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a803c9c9dc0e7f75d11ce722c63bb61
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -202,9 +199,9 @@ Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.Login_POM.isdashboarddisplayed(Login_POM.java:38)
-	at tests.LoginTest.orangeHRMlogintest(LoginTest.java:45)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at tests.LoginTest.orangeHRMlogintest(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -213,7 +210,7 @@ Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -229,17 +226,16 @@ Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace173070089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace173070089'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///h6[text()=&apos;Dashboard&apos;] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;///h6[text()=&apos;Dashboard&apos;]&apos; is not a valid XPath expression.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1975171943", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1975171943'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[text()=&apos;Dashboard&apos;]&quot;}
   (Session info: MicrosoftEdge=154.0.4258.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5bc72c7eee2aa3e1fd7c2505e6e22f30, findElement {value=///h6[text()=&apos;Dashboard&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 72884, ms:edgeOptions: {debuggerAddress: localhost:64223}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64223/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
+Command: [8a803c9c9dc0e7f75d11ce722c63bb61, findElement {value=//h6[text()=&apos;Dashboard&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 104920, ms:edgeOptions: {debuggerAddress: localhost:62993}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: C:\Users\sarit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62993/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a803c9c9dc0e7f75d11ce722c63bb61
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -252,9 +248,9 @@ Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.Login_POM.isdashboarddisplayed(Login_POM.java:38)
-	at tests.LoginTest.orangeHRMlogintest(LoginTest.java:45)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at tests.LoginTest.orangeHRMlogintest(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -263,7 +259,7 @@ Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -280,8 +276,8 @@ Session ID: 5bc72c7eee2aa3e1fd7c2505e6e22f30
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>tests.LoginTest@1d9b7cce</td></tr>
+<td>11</td>
+<td>tests.LoginTest@306e95ec</td></tr>
 </table><p>
 </body>
 </html>
